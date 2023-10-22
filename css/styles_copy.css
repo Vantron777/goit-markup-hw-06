@@ -260,21 +260,21 @@ input {
 
 /* =========================================== */
 
-/*======= Section 2 About Us ======*/
-.about-us {
+/*======= Section 2 FEATURE ======*/
+.feature {
     padding: 120px 0;
 }
 
-.about-us-list {
+.feature-list {
     display: flex;
     gap: 24px;
 }
 
-.about-us-item {
+.feature-item {
     width: calc((100% - 72px) / 4);
 }
 
-.about-us-subtitle {
+.feature-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -283,7 +283,7 @@ input {
     margin-bottom: 8px;
 }
 
-.about-us-item-text {
+.feature-item-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;

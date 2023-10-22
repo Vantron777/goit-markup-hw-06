@@ -70,9 +70,9 @@ button {
 }
 
 .container {
-    width: 1158px;
+    max-width: 320px;
     margin: 0 auto;
-    padding: 0 15px;
+    padding: 0 16px;
 }
 
 .section {
@@ -260,30 +260,32 @@ input {
 
 /* =========================================== */
 
-/*======= Section 2 About Us ======*/
-.about-us {
+/*======= Section 2 FEATURE ======*/
+.feature {
     padding: 120px 0;
 }
 
-.about-us-list {
+.feature-list {
     display: flex;
-    gap: 24px;
+    flex-wrap: wrap;
+    gap: 72px;
 }
 
-.about-us-item {
+.feature-item {
     width: calc((100% - 72px) / 4);
 }
 
-.about-us-subtitle {
+.feature-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
     margin-bottom: 8px;
+
 }
 
-.about-us-item-text {
+.feature-item-text {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -291,7 +293,8 @@ input {
 }
 
 .icons-container {
-    display: flex;
+    display: none;
+    /* display: flex; */
     align-items: center;
     justify-content: center;
     height: 112px;
@@ -821,4 +824,38 @@ input {
     border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* ================================================== */
+
+/* =================== MOBILE ======================= */
+@media screen and (max-width: 767px) {}
+
+/* ================================================== */
+
+/* =================== TABLET ======================= */
+@media screen and (min-width: 768px) {}
+
+/* ================================================== */
+
+/* ================== NOT TABLET ==================== */
+@media screen and (max-width: 1157px) {
+    .icon-feature {
+        display: none;
+    }
+}
+
+/* ================================================== */
+
+/* ================== DESKTOP ======================= */
+@media screen and (min-width: 1158px) {
+    .icons-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 112px;
+        background-color: #f4f4fd;
+        border-radius: 4px;
+        margin-bottom: 8px;
+    }
 }
