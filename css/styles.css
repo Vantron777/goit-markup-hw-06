@@ -59,6 +59,10 @@ img {
     overflow: hidden;
 }
 
+/* =============================================== */
+
+/* ============= HEADER ========================= */
+
 .title {
     border-bottom: 1px solid #e7e9fc;
     background: #fff;
@@ -239,6 +243,9 @@ img {
 
 .contact-item {}
 
+/* ============================================== */
+
+/* ================ SECTION 1 HERO ============= */
 .main-page {
     max-width: 1440px;
     background: #2e2f42;
@@ -303,6 +310,9 @@ img {
     background-color: #404bbf;
 }
 
+/* =============================================== */
+
+/* ================ SECTION 2 FEATURES ========== */
 .page-skils-container {
     display: none;
 }
@@ -339,6 +349,9 @@ img {
     letter-spacing: 0.02em;
 }
 
+/* ============================================== */
+
+/* ============== SECTION 3 OUR TEAM ============ */
 .page-team {
     background: #f4f4fd;
     padding-top: 96px;
@@ -436,6 +449,9 @@ img {
     background-color: #404bbf;
 }
 
+/* =============================================== */
+
+/* ============== SECTION 4 OUR PORTFOLIO ======== */
 .portfolio {
     background: #fff;
     padding-top: 96px;
@@ -526,6 +542,9 @@ img {
     letter-spacing: 0.02em;
 }
 
+/* ============================================== */
+
+/* ============ FOOTER ========================= */
 .footer {
     background: #2e2f42;
     padding-top: 96px;
@@ -695,6 +714,9 @@ img {
         visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+/* ================================================ */
+
+/* ================ OVERLAY ======================= */
 .modal {
     width: 288px;
     min-height: 623px;
